@@ -130,17 +130,12 @@ body {
   justify-content: center;
   align-items: center;  /* This will go when making everything align left */
   background: lightgray;
-  /* height: 56px; */
-  /* width: 56px; */
   width: 3.5rem;
   height: 3.5rem;
   color: #FFFFFF;
+  border-radius: 5px;
+  margin: 0.75px;
 }
-
-/* .element-container:hover {
-  background: #FFFFFF;
-  color: #000;
-} */
 
 .alkali-metal {
   background: var(--alkali-metal-color);
