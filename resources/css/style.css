@@ -1,0 +1,285 @@
+/* Color Variables */
+
+:root {
+  --alkali-metal-color: #FF8021;
+  --alkaline-earth-color: #FFB379;
+  --transition-metal-color: #404040;
+  --other-metal-color: #4E67C8;
+  --semi-metal-color: #34AB8A;
+  --non-metal-color: #5DCEAF;
+  --halogen-color: #F78D7B;
+  --noble-gas-color: #F14124;
+  --lanthanide-color: #94a3de;
+  --actinide-color: #7e287e;
+  --test-mode-color: #CECECE;
+}
+
+/* Universal styles */
+
+html {
+  font-family: Helvetica;
+  font-size: 16px;
+  cursor: default;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size: 9px;
+}
+
+sub {
+  top: 0.4em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* .place-holder-elements {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #FFFFFF;
+} */
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+#table-title {
+  font-family: Helvetica;
+  font-weight: normal;
+  /* font-size: 3rem; */
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+/* Group Number */
+
+.group-number {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+  opacity: 0.9;
+}
+
+/* chemical symbol */
+h1 {
+  font-size: 1rem;
+  /* font-weight: bold; */
+  margin: 0.1rem;
+}
+
+.chem-symbol {
+
+}
+
+h2 { /* element name */
+  font-size: 0.5625rem;
+  margin: 0 0.2rem 0.2em;
+}
+
+/* atomic  number */
+h3 {
+  font-size: 0.5625rem;
+  margin-top: 0.05rem;
+}
+
+.atomic-num {
+  width: 100%;
+  padding-left: 4px;
+}
+
+h4 { /* atomic  mass */
+  font-size: 0.5625rem;
+  margin-bottom: 0.05rem;
+}
+
+
+/* Fade in page content on page load */
+body {
+  opacity: 1;
+  animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/* General group styles */
+
+.groups { /* doesn't include lathanides and actinides */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+/* General element styles */
+
+.element-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  /* This will go when making everything align left */
+  background: lightgray;
+  /* height: 56px; */
+  /* width: 56px; */
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #FFFFFF;
+}
+
+/* .element-container:hover {
+  background: #FFFFFF;
+  color: #000;
+} */
+
+.alkali-metal {
+  background: var(--alkali-metal-color);
+}
+
+.alkaline-earth {
+  background: var(--alkaline-earth-color);
+}
+
+.transition-metal {
+  background: var(--transition-metal-color);
+}
+
+.other-metal {
+  background: var(--other-metal-color);
+}
+
+.semi-metal {
+  background: var(--semi-metal-color);
+}
+
+.non-metal {
+  background: var(--non-metal-color);
+}
+
+.halogen {
+  background: var(--halogen-color);
+}
+
+.noble-gas {
+  background: var(--noble-gas-color);
+}
+
+.grayed-out {
+  background: #DEDEDE;
+}
+
+.lanthanide-on {
+  background: var(--lanthanide-color);
+}
+
+.actinide-on {
+  background: var(--actinide-color);
+}
+
+.test-mode {
+  background: var(--test-mode-color);
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* Main content container */
+
+main {
+  width: 100%;
+  padding-top: 1rem;
+
+}
+
+.top-table {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.bottom-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.15rem;
+}
+
+.lathanidesANDactinides1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.lathanidesANDactinides2 {
+  display: flex;
+}
+
+/* Specific group styles */
+
+.element-key {
+  /* width: 7rem; original*/
+  /* width: 8.75rem; */
+  width: 9.35rem;
+  height: 7rem;
+  /* margin-right: 3.5rem; original*/
+  margin-right: 1.15rem;
+  background: #DEDEDE;
+}
+
+.element-color-key-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.15rem;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* width: 9.35rem; */
+  /* height: 200px; */
+  /* background: lightgray; */
+  /* margin-right: 1.15rem; */
+}
+
+.color-key {
+  /* width: 9.35rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.3rem;
+  /* height: 1.25rem; */
+  height: 1.234375rem;
+  font-size: .825rem;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 1px 0;
+  /* padding: 0.8px; */
+}
+
+.color-key:hover {
+  /* opacity: 0.8; */
+  /* border-top: solid 0.015625rem white;
+  border-bottom: none; */
+  /* padding-top: 1px; */
+  margin-top: 1px;
+}
+
+.table-options-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.15rem;
+}
+
+.table-options-container div {
+  width: 21rem;
+}
+
+/* .group-1 {
+
+} */

@@ -1,0 +1,17 @@
+/* This contains IDs for every single element in the periodic table. The plan is to use this for future interactive lessons that highlight specific elements for chemical reaction examples. */
+
+/* Naming convention: Each ID is the chemical symbol of the element */
+
+/* 1 Hydrogen */ #h {}
+/* 2 Helium */ #he {}
+/* 3 Lithium */ #li {}
+/* 4 Beryllium */ #be {}
+/* 5 Boron */ #b {}
+/* 6 Carbon */ #c {}
+/* 7 Nitrogen */ #n {}
+/* 8 Oxygen */ #o {}
+/* 9 Fluorine */ #f {}
+/* 10 Neon */ #ne {}
+/* 11 Sodium */ #na {}
+/* 12 Magnesium */ #mg {}
+/* 13 Aluminum */ #al {}
