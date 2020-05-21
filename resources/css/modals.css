@@ -1,0 +1,190 @@
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 80px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  color: #000;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* ====================================================================== */
+/* Styles for things inside of the actual modal */
+
+.modal-element-box {
+  text-align: center;
+  width: 7rem;
+  height: 7rem;
+  padding: 0.2rem;
+  margin-bottom: 15px;
+  background: #404040;
+  color: #FFFFFF;
+}
+
+.modal-elem-h1 {
+  font-size: 2rem;
+  margin: 0.2rem;
+}
+
+.modal-elem-h2 {
+  font-size: 1.125rem;
+  margin: 0 0.4rem 0.4em;
+}
+
+.modal-elem-h3 {
+  font-size: 1.125rem;
+  margin-top: 0.1rem;
+  text-align: left;
+}
+
+.modal-elem-h4 {
+  font-size: 1.125rem;
+  margin-bottom: 0.1rem;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row-spc-btwn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col-spc-btwn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.units {
+  font-size: 10px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.sources {
+  font-size: 9px;
+  margin-top: 20px;
+}
+
+.modal-text {
+  font-size: 0.8rem;
+  line-height: 1.428;
+}
+
+.modal-text-h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.modal-qf-head {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.modal-appearance-box {
+  margin: 0 0 0 20px;
+}
+
+.modal-quick-facts {
+  line-height: 1.428;
+  font-size: 0.75rem;
+}
+
+.qf-one {
+  margin-top: 5px;
+}
+
+.qf-two {
+  margin-top: 15px;
+}
+
+.modal-text p {
+  margin: 6px 0;
+}
+
+.modal-table {
+  width: 350px;
+  margin-right: 50px;
+}
+
+.modal-info-container {
+  width: 500px;
+}
+
+.bohr-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.bohr-images {
+  height: 40%;
+  width: 40%;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+/* Naming convention: Each ID is the chemical symbol of the element */
+
+/* 1 Hydrogen */ #h {}
+/* 2 Helium */ #he {}
+/* 3 Lithium */ #li {}
+/* 4 Beryllium */ #be {}
+/* 5 Boron */ #b {}
+/* 6 Carbon */ #c {}
+/* 7 Nitrogen */ #n {}
+/* 8 Oxygen */ #o {}
+/* 9 Fluorine */ #f {}
+/* 10 Neon */ #ne {}
+/* 11 Sodium */ #na {}
+/* 12 Magnesium */ #mg {}
+/* 13 Aluminum */ #al {}

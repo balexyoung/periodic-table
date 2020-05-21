@@ -1,0 +1,3660 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+
+    <!-- Bootstrap tabs (part of modals) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="resources/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/modals.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/elements.css" type="text/css" />
+    <link rel="stylesheet" href="resources/css/hover-container.css" type="text/css" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+    <main>
+
+      <!-- When each element is clicked it will display a modal. The first class of each element has a data-modal and the number used is the same number as that element's atomic number. For example, the atomic number of hydrogen is 1, so it has data-modal="#modalOne". Likewise, Lithium has #modalThree because its atomic number is 3. So don't expect them to be in numerical order as you scroll down the page. -->
+
+      <!-- Group 1 -->
+      <section class="top-table">
+        <section class="group-1 groups">
+          <div>
+            <span class="group-number">1</span>
+          </div>
+
+          <!-- Hydrogen on periodic table-->
+          <div id="h" class="element-container non-metal ">
+            <div class="atomic-num">
+              <h3>1</h3>
+            </div>
+            <h1>H</h1>
+            <h2>Hydrogen</h2>
+            <h4>1.008</h4>
+          </div> <!-- closes element container for hydrogen -->
+
+
+          <!-- Lithium on periodic table-->
+          <div id="li" class="element-container alkali-metal ">
+            <div class="atomic-num">
+              <h3>3</h3>
+            </div>
+            <h1>Li</h1>
+            <h2>Lithium</h2>
+            <h4>6.94</h4>
+          </div> <!-- closes element container for lithium -->
+
+
+          <!-- Sodium on periodic table -->
+          <div id="na" class="element-container alkali-metal ">
+            <div class="atomic-num">
+              <h3>11</h3>
+            </div>
+            <h1>Na</h1>
+            <h2>Sodium</h2>
+            <h4>22.99</h4>
+          </div> <!-- closes element container for sodium -->
+
+
+          <!-- Potassium on periodic table -->
+          <div id="k" class="element-container alkali-metal ">
+            <div class="atomic-num">
+              <h3>19</h3>
+            </div>
+            <h1>K</h1>
+            <h2>Potassium</h2>
+            <h4>39.1</h4>
+          </div> <!-- closes element container for potassium -->
+
+
+          <!-- Rubidium on periodic table -->
+          <div id="rb" class="element-container alkali-metal ">
+            <div class="atomic-num">
+              <h3>37</h3>
+            </div>
+            <h1>Rb</h1>
+            <h2>Rubidium</h2>
+            <h4>85.47</h4>
+          </div> <!-- closes element container for Rubidium -->
+
+
+          <!-- Cesium on periodic table -->
+          <div id="cs" class="element-container alkali-metal ">
+            <div class="atomic-num">
+              <h3>55</h3>
+            </div>
+            <h1>Cs</h1>
+            <h2>Cesium</h2>
+            <h4>132.9</h4>
+          </div> <!-- closes element container for Cesium -->
+
+
+          <!-- Francium on periodic table -->
+          <div id="fr" class="element-container alkali-metal ">
+            <div class="atomic-num">
+              <h3>87</h3>
+            </div>
+            <h1>Fr</h1>
+            <h2>Francium</h2>
+            <h4>[223]</h4>
+          </div> <!-- closes element container for Francium -->
+
+        </section> <!-- End of Group 1 -->
+
+        <!-- Group 2 -->
+
+        <!-- Beryllium on periodic table -->
+        <section class="group-2 groups">
+          <div>
+            <span class="group-number">2</span>
+          </div>
+          <div id="be" class="element-container alkaline-earth">
+            <div class="atomic-num">
+              <h3>4</h3>
+            </div>
+            <h1>Be</h1>
+            <h2>Beryllium</h2>
+            <h4>9.012</h4>
+          </div> <!-- closes element container for Beryllium -->
+
+
+          <!-- Magnesium on periodic table -->
+          <div id="mg" class="element-container alkaline-earth">
+            <div class="atomic-num">
+              <h3>12</h3>
+            </div>
+            <h1>Mg</h1>
+            <h2>Magnesium</h2>
+            <h4>24.31</h4>
+          </div> <!-- closes element container for Magnesium -->
+
+
+          <!-- Calcium on periodic table -->
+          <div id="ca" class="element-container alkaline-earth">
+            <div class="atomic-num">
+              <h3>20</h3>
+            </div>
+            <h1>Ca</h1>
+            <h2>Calcium</h2>
+            <h4>40.08</h4>
+          </div> <!-- closes element container for Calcium -->
+
+
+          <!-- Strontium on periodic table -->
+          <div id="sr" class="element-container alkaline-earth">
+            <div class="atomic-num">
+              <h3>38</h3>
+            </div>
+            <h1>Sr</h1>
+            <h2>Strontium</h2>
+            <h4>87.62</h4>
+          </div> <!-- closes element container for Strontium -->
+
+
+          <!-- Barium on periodic table -->
+          <div id="ba" class="element-container alkaline-earth">
+            <div class="atomic-num">
+              <h3>56</h3>
+            </div>
+            <h1>Ba</h1>
+            <h2>Barium</h2>
+            <h4>137.3</h4>
+          </div> <!-- closes element container for Barium -->
+
+
+          <!-- Radium on periodic table -->
+          <div id="ra" class="element-container alkaline-earth">
+            <div class="atomic-num">
+              <h3>88</h3>
+            </div>
+            <h1>Ra</h1>
+            <h2>Radium</h2>
+            <h4>[226]</h4>
+          </div> <!-- closes element container for Radium -->
+
+        </section> <!-- End of Group 2 -->
+
+        <!-- Group 3 -->
+
+        <!-- The following container has the hover-info-container and the transition metals below it -->
+        <div class="center-container">
+          <div class="center-box-one">
+            <div class="hover-info-container">
+              <!-- The IDs for each element box have the chemical symbol then a dash and then the word "hover," i.e. helium = h-hover, boron = b-hover, etc., they can be found in the stylesheet named "hover-container" -->
+              <div id="h-hover" class="hover-info"> <!-- Hover info for hydrogen  -->
+                <div class="atom-box">
+                  <span class="chem-sym">H</span>
+                  <span class="chem-name">HYDROGEN</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 1</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 1</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 1.008</p>
+                      <p>Melting point: -259.16 &deg;C</p>
+                      <p>Boiling Point: -252.879 &deg;C</p>
+                      <p>Electronegativity: 2.20</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for hydrogen  -->
+              <div id="he-hover" class="hover-info"> <!-- Hover info for helium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">He</span>
+                  <span class="chem-name">HELIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 1</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 2</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 4.003</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: -268.928 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for helium  -->
+              <div id="li-hover" class="hover-info"> <!-- Hover info for lithium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Li</span>
+                  <span class="chem-name">LITHIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 2</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 3</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 6.94</p>
+                      <p>Melting point: 180.50 &deg;C</p>
+                      <p>Boiling Point: 1342 &deg;C</p>
+                      <p>Electronegativity: 0.98</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for lithium  -->
+              <div id="be-hover" class="hover-info"> <!-- Hover info for beryllium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Be</span>
+                  <span class="chem-name">BERYLLIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 2</p>
+                      <p>Period: 2</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 4</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 9.012</p>
+                      <p>Melting point: 1287 &deg;C</p>
+                      <p>Boiling Point: 2468 &deg;C</p>
+                      <p>Electronegativity: 1.57</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for beryllium  -->
+              <div id="b-hover" class="hover-info"> <!-- Hover info for boron  -->
+                <div class="atom-box">
+                  <span class="chem-sym">B</span>
+                  <span class="chem-name">BORON</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 13</p>
+                      <p>Period: 2</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 5</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 10.81</p>
+                      <p>Melting point: 2077 &deg;C</p>
+                      <p>Boiling Point: 4000 &deg;C</p>
+                      <p>Electronegativity: 2.04</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for boron  -->
+              <div id="c-hover" class="hover-info"> <!-- Hover info for carbon  -->
+                <div class="atom-box">
+                  <span class="chem-sym">C</span>
+                  <span class="chem-name">CARBON</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 14</p>
+                      <p>Period: 2</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 6</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 12.011</p>
+                      <p>Melting point: Sublimes at 3825 &deg;C</p>
+                      <p>Boiling Point: Sublimes at 3825 &deg;C</p>
+                      <p>Electronegativity: 2.55</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for carbon  -->
+              <div id="n-hover" class="hover-info"> <!-- Hover info for nitrogen  -->
+                <div class="atom-box">
+                  <span class="chem-sym">N</span>
+                  <span class="chem-name">NITROGEN</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 15</p>
+                      <p>Period: 2</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 7</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 14.007</p>
+                      <p>Melting point: -210.0 &deg;C</p>
+                      <p>Boiling Point: -195.795 &deg;C</p>
+                      <p>Electronegativity: 3.04</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for nitrogen  -->
+              <div id="o-hover" class="hover-info"> <!-- Hover info for oxygen  -->
+                <div class="atom-box">
+                  <span class="chem-sym">O</span>
+                  <span class="chem-name">OXYGEN</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 16</p>
+                      <p>Period: 2</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 8</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 15.999</p>
+                      <p>Melting point: -218.79 &deg;C</p>
+                      <p>Boiling Point: -182.962 &deg;C</p>
+                      <p>Electronegativity: 3.44</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for oxygen  -->
+              <div id="f-hover" class="hover-info"> <!-- Hover info for fluorine  -->
+                <div class="atom-box">
+                  <span class="chem-sym">F</span>
+                  <span class="chem-name">FLUORINE</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 17</p>
+                      <p>Period: 2</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 9</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 18.998</p>
+                      <p>Melting point: -219.67 &deg;C</p>
+                      <p>Boiling Point: -188.11 &deg;C</p>
+                      <p>Electronegativity: 3.98</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for fluorine  -->
+              <div id="ne-hover" class="hover-info"> <!-- Hover info for neon  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ne</span>
+                  <span class="chem-name">NEON</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 2</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 10</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 20.180</p>
+                      <p>Melting point: -248.59 &deg;C</p>
+                      <p>Boiling Point: -246.046 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for neon  -->
+              <div id="na-hover" class="hover-info"> <!-- Hover info for sodium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Na</span>
+                  <span class="chem-name">SODIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 3</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 11</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 22.990</p>
+                      <p>Melting point: 97.794 &deg;C</p>
+                      <p>Boiling Point: 882.940 &deg;C</p>
+                      <p>Electronegativity: 0.93</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for sodium  -->
+              <div id="mg-hover" class="hover-info"> <!-- Hover info for magnesium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Mg</span>
+                  <span class="chem-name">MAGNESIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 2</p>
+                      <p>Period: 3</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 12</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 24.305</p>
+                      <p>Melting point: 650 &deg;C</p>
+                      <p>Boiling Point: 1090 &deg;C</p>
+                      <p>Electronegativity: 1.31</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for magnesium  -->
+              <div id="al-hover" class="hover-info"> <!-- Hover info for aluminum  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Al</span>
+                  <span class="chem-name">ALUMINUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 13</p>
+                      <p>Period: 3</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 13</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 26.982</p>
+                      <p>Melting point: 660.323 &deg;C</p>
+                      <p>Boiling Point: 2519 &deg;C</p>
+                      <p>Electronegativity: 1.61</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for aluminum  -->
+              <div id="si-hover" class="hover-info"> <!-- Hover info for silicon  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Si</span>
+                  <span class="chem-name">SILICON</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 14</p>
+                      <p>Period: 3</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 14</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 28.085</p>
+                      <p>Melting point: 1414 &deg;C</p>
+                      <p>Boiling Point: 3265 &deg;C</p>
+                      <p>Electronegativity: 1.90</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for silicon  -->
+              <div id="p-hover" class="hover-info"> <!-- Hover info for phosphorus  -->
+                <div class="atom-box">
+                  <span class="chem-sym">P</span>
+                  <span class="chem-name">PHOSPHORUS</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 15</p>
+                      <p>Period: 3</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 15</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 30.974</p>
+                      <p>Melting point: 44.15 &deg;C</p>
+                      <p>Boiling Point: 280.5 &deg;C</p>
+                      <p>Electronegativity: 2.19</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for phosphorus  -->
+              <div id="s-hover" class="hover-info"> <!-- Hover info for sulfur  -->
+                <div class="atom-box">
+                  <span class="chem-sym">S</span>
+                  <span class="chem-name">SULFUR</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 16</p>
+                      <p>Period: 3</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 16</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 32.06</p>
+                      <p>Melting point: 115.21 &deg;C</p>
+                      <p>Boiling Point: 444.61 &deg;C</p>
+                      <p>Electronegativity: 2.58</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for sulfur  -->
+              <div id="cl-hover" class="hover-info"> <!-- Hover info for chlorine  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cl</span>
+                  <span class="chem-name">CHLORINE</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 17</p>
+                      <p>Period: 3</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 17</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 35.45</p>
+                      <p>Melting point: -101.5 &deg;C</p>
+                      <p>Boiling Point: -34.04 &deg;C</p>
+                      <p>Electronegativity: 3.16</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for chlorine  -->
+              <div id="ar-hover" class="hover-info"> <!-- Hover info for argon  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ar</span>
+                  <span class="chem-name">ARGON</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 3</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 18</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 39.95</p>
+                      <p>Melting point: -189.34 &deg;C</p>
+                      <p>Boiling Point: -185.848 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for argon  -->
+              <div id="k-hover" class="hover-info"> <!-- Hover info for potassium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">K</span>
+                  <span class="chem-name">POTASSIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 4</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 19</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 39.098</p>
+                      <p>Melting point: 63.5 &deg;C</p>
+                      <p>Boiling Point: 759 &deg;C</p>
+                      <p>Electronegativity: 0.82</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for potassium  -->
+              <div id="ca-hover" class="hover-info"> <!-- Hover info for calcium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ca</span>
+                  <span class="chem-name">CALCIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 2</p>
+                      <p>Period: 4</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 20</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 40.078</p>
+                      <p>Melting point: 842 &deg;C</p>
+                      <p>Boiling Point: 1484 &deg;C</p>
+                      <p>Electronegativity: 1.00</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for calcium  -->
+              <div id="sc-hover" class="hover-info"> <!-- Hover info for scandium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Sc</span>
+                  <span class="chem-name">SCANDIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 3</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 21</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 44.956</p>
+                      <p>Melting point: 1541 &deg;C</p>
+                      <p>Boiling Point: 2836 &deg;C</p>
+                      <p>Electronegativity: 1.36</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for scandium  -->
+              <div id="ti-hover" class="hover-info"> <!-- Hover info for titanium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ti</span>
+                  <span class="chem-name">TITANIUM</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 4</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 22</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 47.867</p>
+                      <p>Melting point: 1670 &deg;C</p>
+                      <p>Boiling Point: 3287 &deg;C</p>
+                      <p>Electronegativity: 1.54</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for titanium  -->
+              <div id="v-hover" class="hover-info"> <!-- Hover info for vanadium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">V</span>
+                  <span class="chem-name">Vanadium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 5</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 23</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 50.942</p>
+                      <p>Melting point: 1910 &deg;C</p>
+                      <p>Boiling Point: 3407 &deg;C</p>
+                      <p>Electronegativity: 1.63</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for vanadium  -->
+              <div id="cr-hover" class="hover-info"> <!-- Hover info for chromium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cr</span>
+                  <span class="chem-name">Chromium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 6</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 24</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 51.996</p>
+                      <p>Melting point: 1907 &deg;C</p>
+                      <p>Boiling Point: 2671 &deg;C</p>
+                      <p>Electronegativity: 1.66</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for chromium  -->
+              <div id="mn-hover" class="hover-info"> <!-- Hover info for manganese  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Mn</span>
+                  <span class="chem-name">Manganese</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 7</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 25</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 54.938</p>
+                      <p>Melting point: 1246 &deg;C</p>
+                      <p>Boiling Point: 2061 &deg;C</p>
+                      <p>Electronegativity: 1.55</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for manganese  -->
+              <div id="fe-hover" class="hover-info"> <!-- Hover info for iron  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Fe</span>
+                  <span class="chem-name">Iron</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 8</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 26</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 55.845</p>
+                      <p>Melting point: 1538 &deg;C</p>
+                      <p>Boiling Point: 2861 &deg;C</p>
+                      <p>Electronegativity: 1.83</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for iron  -->
+              <div id="co-hover" class="hover-info"> <!-- Hover info for cobalt  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Co</span>
+                  <span class="chem-name">Cobalt</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 9</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 27</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 58.933</p>
+                      <p>Melting point: 1495 &deg;C</p>
+                      <p>Boiling Point: 2927 &deg;C</p>
+                      <p>Electronegativity: 1.88</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for cobalt  -->
+              <div id="ni-hover" class="hover-info"> <!-- Hover info for nickel  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ni</span>
+                  <span class="chem-name">Nickel</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 10</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 28</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 58.693</p>
+                      <p>Melting point: 1455 &deg;C</p>
+                      <p>Boiling Point: 2913 &deg;C</p>
+                      <p>Electronegativity: 1.91</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for nickel  -->
+              <div id="cu-hover" class="hover-info"> <!-- Hover info for copper  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cu</span>
+                  <span class="chem-name">Copper</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 11</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 29</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 63.546</p>
+                      <p>Melting point: 1084.62 &deg;C</p>
+                      <p>Boiling Point: 2560 &deg;C</p>
+                      <p>Electronegativity: 1.90</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for copper  -->
+              <div id="zn-hover" class="hover-info"> <!-- Hover info for zinc  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Zn</span>
+                  <span class="chem-name">Zinc</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 12</p>
+                      <p>Period: 4</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 30</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 65.38</p>
+                      <p>Melting point: 419.527 &deg;C</p>
+                      <p>Boiling Point: 907 &deg;C</p>
+                      <p>Electronegativity: 1.65</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for zinc  -->
+              <div id="ga-hover" class="hover-info"> <!-- Hover info for gallium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ga</span>
+                  <span class="chem-name">Gallium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 13</p>
+                      <p>Period: 4</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 31</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 69.723</p>
+                      <p>Melting point: 29.7646 &deg;C</p>
+                      <p>Boiling Point: 2229 &deg;C</p>
+                      <p>Electronegativity: 1.81</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for gallium  -->
+              <div id="ge-hover" class="hover-info"> <!-- Hover info for germanium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ge</span>
+                  <span class="chem-name">Germanium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 14</p>
+                      <p>Period: 4</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 32</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 72.630</p>
+                      <p>Melting point: 938.25 &deg;C</p>
+                      <p>Boiling Point: 2833 &deg;C</p>
+                      <p>Electronegativity: 2.01</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for germanium  -->
+              <div id="as-hover" class="hover-info"> <!-- Hover info for arsenic  -->
+                <div class="atom-box">
+                  <span class="chem-sym">As</span>
+                  <span class="chem-name">Arsenic</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 15</p>
+                      <p>Period: 4</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 33</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 74.922</p>
+                      <p>Melting point: Sublimes at 616 &deg;C</p>
+                      <p>Boiling Point: Sublimes at 616 &deg;C</p>
+                      <p>Electronegativity: 2.18</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for arsenic  -->
+              <div id="se-hover" class="hover-info"> <!-- Hover info for selenium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Se</span>
+                  <span class="chem-name">Selenium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 16</p>
+                      <p>Period: 4</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 34</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 78.971</p>
+                      <p>Melting point: 220.8 &deg;C</p>
+                      <p>Boiling Point: 685 &deg;C</p>
+                      <p>Electronegativity: 2.55</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for selenium  -->
+              <div id="br-hover" class="hover-info"> <!-- Hover info for bromine  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Br</span>
+                  <span class="chem-name">Bromine</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 17</p>
+                      <p>Period: 4</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 35</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 79.904</p>
+                      <p>Melting point: -7.2 &deg;C</p>
+                      <p>Boiling Point: 58.8 &deg;C</p>
+                      <p>Electronegativity: 2.96</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for bromine  -->
+              <div id="kr-hover" class="hover-info"> <!-- Hover info for krypton  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Kr</span>
+                  <span class="chem-name">Krypton</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 4</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 36</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 83.798</p>
+                      <p>Melting point: -157.37 &deg;C</p>
+                      <p>Boiling Point: -153.415 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for krypton  -->
+              <div id="rb-hover" class="hover-info"> <!-- Hover info for rubidium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Rb</span>
+                  <span class="chem-name">Rubidium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 5</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 37</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 85.468</p>
+                      <p>Melting point: 39.30 &deg;C</p>
+                      <p>Boiling Point: 688 &deg;C</p>
+                      <p>Electronegativity: 0.82</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for rubidium  -->
+              <div id="sr-hover" class="hover-info"> <!-- Hover info for strontium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Sr</span>
+                  <span class="chem-name">Strontium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 2</p>
+                      <p>Period: 5</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 38</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 87.62</p>
+                      <p>Melting point: 777 &deg;C</p>
+                      <p>Boiling Point: 1431 &deg;C</p>
+                      <p>Electronegativity: 0.95</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for strontium  -->
+              <div id="y-hover" class="hover-info"> <!-- Hover info for yttrium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Y</span>
+                  <span class="chem-name">Yttrium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 3</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 39</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 88.906</p>
+                      <p>Melting point: 1522 &deg;C</p>
+                      <p>Boiling Point: 2772 &deg;C</p>
+                      <p>Electronegativity: 1.22</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for yttrium  -->
+              <div id="zr-hover" class="hover-info"> <!-- Hover info for zirconium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Zr</span>
+                  <span class="chem-name">Zirconium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 4</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 40</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 91.224</p>
+                      <p>Melting point: 1854 &deg;C</p>
+                      <p>Boiling Point: 4406 &deg;C</p>
+                      <p>Electronegativity: 1.33</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for zirconium  -->
+              <div id="nb-hover" class="hover-info"> <!-- Hover info for niobium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Nb</span>
+                  <span class="chem-name">Niobium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 5</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 41</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 92.906</p>
+                      <p>Melting point: 2477 &deg;C</p>
+                      <p>Boiling Point: 4741 &deg;C</p>
+                      <p>Electronegativity: 1.6</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for niobium  -->
+              <div id="mo-hover" class="hover-info"> <!-- Hover info for molybdenum  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Mo</span>
+                  <span class="chem-name">Molybdenum</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 6</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 42</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 95.95</p>
+                      <p>Melting point: 2622 &deg;C</p>
+                      <p>Boiling Point: 4639 &deg;C</p>
+                      <p>Electronegativity: 2.16</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for molybdenum  -->
+              <div id="tc-hover" class="hover-info"> <!-- Hover info for technetium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Tc</span>
+                  <span class="chem-name">Technetium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 7</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 43</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [98]</p>
+                      <p>Melting point: 2157 &deg;C</p>
+                      <p>Boiling Point: 4262 &deg;C</p>
+                      <p>Electronegativity: 2.10</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for technetium  -->
+              <div id="ru-hover" class="hover-info"> <!-- Hover info for ruthenium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ru</span>
+                  <span class="chem-name">Ruthenium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 8</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 44</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 101.07</p>
+                      <p>Melting point: 2333 &deg;C</p>
+                      <p>Boiling Point: 4147 &deg;C</p>
+                      <p>Electronegativity: 2.2</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for ruthenium  -->
+              <div id="rh-hover" class="hover-info"> <!-- Hover info for rhodium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Rh</span>
+                  <span class="chem-name">Rhodium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 9</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 45</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 102.906</p>
+                      <p>Melting point: 1963 &deg;C</p>
+                      <p>Boiling Point: 3695 &deg;C</p>
+                      <p>Electronegativity: 2.28</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for rhodium  -->
+              <div id="pd-hover" class="hover-info"> <!-- Hover info for palladium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pd</span>
+                  <span class="chem-name">Palladium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 10</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 46</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 106.42</p>
+                      <p>Melting point: 1554.8 &deg;C</p>
+                      <p>Boiling Point: 2963 &deg;C</p>
+                      <p>Electronegativity: 2.20</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for palladium  -->
+              <div id="ag-hover" class="hover-info"> <!-- Hover info for silver  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ag</span>
+                  <span class="chem-name">Silver</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 11</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 47</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 107.868</p>
+                      <p>Melting point: 961.78 &deg;C</p>
+                      <p>Boiling Point: 2162 &deg;C</p>
+                      <p>Electronegativity: 1.93</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for silver  -->
+              <div id="cd-hover" class="hover-info"> <!-- Hover info for cadmium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cd</span>
+                  <span class="chem-name">Cadmium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 12</p>
+                      <p>Period: 5</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 48</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 112.414</p>
+                      <p>Melting point: 321.069 &deg;C</p>
+                      <p>Boiling Point: 767 &deg;C</p>
+                      <p>Electronegativity: 1.69</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for cadmium  -->
+              <div id="in-hover" class="hover-info"> <!-- Hover info for indium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">In</span>
+                  <span class="chem-name">Indium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 13</p>
+                      <p>Period: 5</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 49</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 114.818</p>
+                      <p>Melting point: 156.60 &deg;C</p>
+                      <p>Boiling Point: 2027 &deg;C</p>
+                      <p>Electronegativity: 1.78</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for indium  -->
+              <div id="sn-hover" class="hover-info"> <!-- Hover info for tin  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Sn</span>
+                  <span class="chem-name">Tin</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 14</p>
+                      <p>Period: 5</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 50</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 118.710</p>
+                      <p>Melting point: 231.928 &deg;C</p>
+                      <p>Boiling Point: 2586 &deg;C</p>
+                      <p>Electronegativity: 1.96</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for tin  -->
+              <div id="sb-hover" class="hover-info"> <!-- Hover info for antimony  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Sb</span>
+                  <span class="chem-name">Antimony</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 15</p>
+                      <p>Period: 5</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 51</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 121.760</p>
+                      <p>Melting point: 630.628 &deg;C</p>
+                      <p>Boiling Point: 1587 &deg;C</p>
+                      <p>Electronegativity: 2.05</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for antimony  -->
+              <div id="te-hover" class="hover-info"> <!-- Hover info for tellurium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Te</span>
+                  <span class="chem-name">Tellurium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 16</p>
+                      <p>Period: 5</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 52</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 127.60</p>
+                      <p>Melting point: 449.51 &deg;C</p>
+                      <p>Boiling Point: 988 &deg;C</p>
+                      <p>Electronegativity: 2.1</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for tellurium  -->
+              <div id="i-hover" class="hover-info"> <!-- Hover info for iodine  -->
+                <div class="atom-box">
+                  <span class="chem-sym">I</span>
+                  <span class="chem-name">Iodine</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 17</p>
+                      <p>Period: 5</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 53</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 126.904</p>
+                      <p>Melting point: 113.7 &deg;C</p>
+                      <p>Boiling Point: 184.4 &deg;C</p>
+                      <p>Electronegativity: 2.66</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for iodine  -->
+              <div id="xe-hover" class="hover-info"> <!-- Hover info for xenon  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Xe</span>
+                  <span class="chem-name">Xenon</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 5</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 54</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 131.293</p>
+                      <p>Melting point: -111.75 &deg;C</p>
+                      <p>Boiling Point: -108.099 &deg;C</p>
+                      <p>Electronegativity: 2.60</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for xenon  -->
+              <div id="cs-hover" class="hover-info"> <!-- Hover info for cesium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cs</span>
+                  <span class="chem-name">Cesium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 6</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 55</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 132.905</p>
+                      <p>Melting point: 28.5 &deg;C</p>
+                      <p>Boiling Point: 671 &deg;C</p>
+                      <p>Electronegativity: 0.79</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for cesium  -->
+              <div id="ba-hover" class="hover-info"> <!-- Hover info for barium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ba</span>
+                  <span class="chem-name">Barium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 2</p>
+                      <p>Period: 6</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 56</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 137.327</p>
+                      <p>Melting point: 727 &deg;C</p>
+                      <p>Boiling Point: 1845 &deg;C</p>
+                      <p>Electronegativity: 0.89</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for barium  -->
+              <div id="la-hover" class="hover-info"> <!-- Hover info for lanthanum  -->
+                <div class="atom-box">
+                  <span class="chem-sym">La</span>
+                  <span class="chem-name">Lanthanum</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 57</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 138.905</p>
+                      <p>Melting point: 920 &deg;C</p>
+                      <p>Boiling Point: 3464 &deg;C</p>
+                      <p>Electronegativity: 1.10</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for lanthanum  -->
+              <div id="ce-hover" class="hover-info"> <!-- Hover info for cerium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ce</span>
+                  <span class="chem-name">Cerium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 58</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 140.116</p>
+                      <p>Melting point: 799 &deg;C</p>
+                      <p>Boiling Point: 3443 &deg;C</p>
+                      <p>Electronegativity: 1.12</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for cerium  -->
+              <div id="pr-hover" class="hover-info"> <!-- Hover info for praseodymium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pr</span>
+                  <span class="chem-name">Praseodymium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 59</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 140.908</p>
+                      <p>Melting point: 931 &deg;C</p>
+                      <p>Boiling Point: 3520 &deg;C</p>
+                      <p>Electronegativity: 1.13</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for praseodymium  -->
+              <div id="nd-hover" class="hover-info"> <!-- Hover info for neodymium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Nd</span>
+                  <span class="chem-name">Neodymium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 60</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 144.242</p>
+                      <p>Melting point: 1016 &deg;C</p>
+                      <p>Boiling Point: 3074 &deg;C</p>
+                      <p>Electronegativity: 1.14</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for neodymium  -->
+              <div id="pm-hover" class="hover-info"> <!-- Hover info for promethium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pm</span>
+                  <span class="chem-name">Promethium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 61</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [145]</p>
+                      <p>Melting point: 1042 &deg;C</p>
+                      <p>Boiling Point: 3000 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for promethium  -->
+              <div id="sm-hover" class="hover-info"> <!-- Hover info for samarium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Sm</span>
+                  <span class="chem-name">Samarium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 62</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 150.36</p>
+                      <p>Melting point: 1072 &deg;C</p>
+                      <p>Boiling Point: 1794 &deg;C</p>
+                      <p>Electronegativity: 1.17</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for samarium  -->
+              <div id="eu-hover" class="hover-info"> <!-- Hover info for europium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Eu</span>
+                  <span class="chem-name">Europium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 63</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 151.964</p>
+                      <p>Melting point: 822 &deg;C</p>
+                      <p>Boiling Point: 1529 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for europium  -->
+              <div id="gd-hover" class="hover-info"> <!-- Hover info for gadolinium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Gd</span>
+                  <span class="chem-name">Gadolinium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 64</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 157.25</p>
+                      <p>Melting point: 1313 &deg;C</p>
+                      <p>Boiling Point: 3273 &deg;C</p>
+                      <p>Electronegativity: 1.20</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for gadolinium  -->
+              <div id="tb-hover" class="hover-info"> <!-- Hover info for terbium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Tb</span>
+                  <span class="chem-name">Terbium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 65</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 158.925</p>
+                      <p>Melting point: 1359 &deg;C</p>
+                      <p>Boiling Point: 3230 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for terbium  -->
+              <div id="dy-hover" class="hover-info"> <!-- Hover info for dysprosium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Dy</span>
+                  <span class="chem-name">Dysprosium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 66</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 162.500</p>
+                      <p>Melting point: 1412 &deg;C</p>
+                      <p>Boiling Point: 2567 &deg;C</p>
+                      <p>Electronegativity: 1.22</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for dysprosium  -->
+              <div id="ho-hover" class="hover-info"> <!-- Hover info for holmium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ho</span>
+                  <span class="chem-name">Holmium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 67</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 164.930</p>
+                      <p>Melting point: 1472 &deg;C</p>
+                      <p>Boiling Point: 2700 &deg;C</p>
+                      <p>Electronegativity: 1.23</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for holmium  -->
+              <div id="er-hover" class="hover-info"> <!-- Hover info for erbium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Er</span>
+                  <span class="chem-name">Erbium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 68</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 167.259</p>
+                      <p>Melting point: 1529 &deg;C</p>
+                      <p>Boiling Point: 2868 &deg;C</p>
+                      <p>Electronegativity: 1.24</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for erbium  -->
+              <div id="tm-hover" class="hover-info"> <!-- Hover info for thulium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Tm</span>
+                  <span class="chem-name">Thulium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 69</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 168.934</p>
+                      <p>Melting point: 1545 &deg;C</p>
+                      <p>Boiling Point: 1950 &deg;C</p>
+                      <p>Electronegativity: 1.25</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for thulium  -->
+              <div id="yb-hover" class="hover-info"> <!-- Hover info for ytterbium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Yb</span>
+                  <span class="chem-name">Ytterbium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 70</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 173.045</p>
+                      <p>Melting point: 824 &deg;C</p>
+                      <p>Boiling Point: 1196 &deg;C</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for ytterbium  -->
+              <div id="lu-hover" class="hover-info"> <!-- Hover info for lutetium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Lu</span>
+                  <span class="chem-name">Lutetium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Lanthanides</p>
+                      <p>Period: 6</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 71</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 174.967</p>
+                      <p>Melting point: 1663 &deg;C</p>
+                      <p>Boiling Point: 3402 &deg;C</p>
+                      <p>Electronegativity: 1.0</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for lutetium  -->
+              <div id="hf-hover" class="hover-info"> <!-- Hover info for hafnium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Hf</span>
+                  <span class="chem-name">Hafnium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 4</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 72</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 178.49</p>
+                      <p>Melting point: 2233 &deg;C</p>
+                      <p>Boiling Point: 4600 &deg;C</p>
+                      <p>Electronegativity: 1.3</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for hafnium  -->
+              <div id="ta-hover" class="hover-info"> <!-- Hover info for tantalum  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ta</span>
+                  <span class="chem-name">Tantalum</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 5</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 73</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 180.948</p>
+                      <p>Melting point: 3017 &deg;C</p>
+                      <p>Boiling Point: 5455 &deg;C</p>
+                      <p>Electronegativity: 1.5</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for tantalum  -->
+              <div id="w-hover" class="hover-info"> <!-- Hover info for tungsten  -->
+                <div class="atom-box">
+                  <span class="chem-sym">W</span>
+                  <span class="chem-name">Tungsten</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 6</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 74</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 183.84</p>
+                      <p>Melting point: 3414 &deg;C</p>
+                      <p>Boiling Point: 5555 &deg;C</p>
+                      <p>Electronegativity: 1.7</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for tungsten  -->
+              <div id="re-hover" class="hover-info"> <!-- Hover info for rhenium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Re</span>
+                  <span class="chem-name">Rhenium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 7</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 75</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 186.207</p>
+                      <p>Melting point: 3185 &deg;C</p>
+                      <p>Boiling Point: 5590 &deg;C</p>
+                      <p>Electronegativity: 1.9</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for rhenium  -->
+              <div id="os-hover" class="hover-info"> <!-- Hover info for osmium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Os</span>
+                  <span class="chem-name">Osmium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 8</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 76</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 190.23</p>
+                      <p>Melting point: 3033 &deg;C</p>
+                      <p>Boiling Point: 5008 &deg;C</p>
+                      <p>Electronegativity: 2.2</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for osmium  -->
+              <div id="ir-hover" class="hover-info"> <!-- Hover info for iridium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ir</span>
+                  <span class="chem-name">Iridium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 9</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 77</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 192.217</p>
+                      <p>Melting point: 2446 &deg;C</p>
+                      <p>Boiling Point: 4429 &deg;C</p>
+                      <p>Electronegativity: 2.2</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for iridium  -->
+              <div id="pt-hover" class="hover-info"> <!-- Hover info for platinum  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pt</span>
+                  <span class="chem-name">Platinum</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 10</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 78</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 195.084</p>
+                      <p>Melting point: 1768.2 &deg;C</p>
+                      <p>Boiling Point: 3825 &deg;C</p>
+                      <p>Electronegativity: 2.2</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for platinum  -->
+              <div id="au-hover" class="hover-info"> <!-- Hover info for gold  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Au</span>
+                  <span class="chem-name">Gold</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 11</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 79</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 196.967</p>
+                      <p>Melting point: 1064.18 &deg;C</p>
+                      <p>Boiling Point: 2836 &deg;C</p>
+                      <p>Electronegativity: 2.4</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for gold  -->
+              <div id="hg-hover" class="hover-info"> <!-- Hover info for mercury  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Hg</span>
+                  <span class="chem-name">Mercury</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 12</p>
+                      <p>Period: 6</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 80</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 200.592</p>
+                      <p>Melting point: -38.829 &deg;C</p>
+                      <p>Boiling Point: 356.619 &deg;C</p>
+                      <p>Electronegativity: 1.9</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for mercury  -->
+              <div id="tl-hover" class="hover-info"> <!-- Hover info for thallium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Tl</span>
+                  <span class="chem-name">Thallium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 13</p>
+                      <p>Period: 6</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 81</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 204.38</p>
+                      <p>Melting point: 304 &deg;C</p>
+                      <p>Boiling Point: 1473 &deg;C</p>
+                      <p>Electronegativity: 1.8</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for thallium  -->
+              <div id="pb-hover" class="hover-info"> <!-- Hover info for lead  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pb</span>
+                  <span class="chem-name">Lead</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 14</p>
+                      <p>Period: 6</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 82</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 207.2</p>
+                      <p>Melting point: 327.462 &deg;C</p>
+                      <p>Boiling Point: 749 &deg;C</p>
+                      <p>Electronegativity: 1.8</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for lead  -->
+              <div id="bi-hover" class="hover-info"> <!-- Hover info for bismuth  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Bi</span>
+                  <span class="chem-name">Bismuth</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 15</p>
+                      <p>Period: 6</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 83</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 208.980</p>
+                      <p>Melting point: 271.406 &deg;C</p>
+                      <p>Boiling Point: 1564 &deg;C</p>
+                      <p>Electronegativity: 1.9</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for bismuth  -->
+              <div id="po-hover" class="hover-info"> <!-- Hover info for polonium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Po</span>
+                  <span class="chem-name">Polonium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 16</p>
+                      <p>Period: 6</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 84</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [209]</p>
+                      <p>Melting point: 254 &deg;C</p>
+                      <p>Boiling Point: 962 &deg;C</p>
+                      <p>Electronegativity: 2.0</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for polonium  -->
+              <div id="at-hover" class="hover-info"> <!-- Hover info for astatine  -->
+                <div class="atom-box">
+                  <span class="chem-sym">At</span>
+                  <span class="chem-name">Astatine</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 17</p>
+                      <p>Period: 6</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 85</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [210]</p>
+                      <p>Melting point: 300 &deg;C</p>
+                      <p>Boiling Point: 350 &deg;C</p>
+                      <p>Electronegativity: 2.2</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for astatine  -->
+              <div id="rn-hover" class="hover-info"> <!-- Hover info for radon  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Rn</span>
+                  <span class="chem-name">Radon</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 6</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 86</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [222]</p>
+                      <p>Melting point: -71 &deg;C</p>
+                      <p>Boiling Point: -61.7 &deg;C</p>
+                      <p>Electronegativity: Uknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for radon  -->
+              <div id="fr-hover" class="hover-info"> <!-- Hover info for francium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Fr</span>
+                  <span class="chem-name">Francium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 1</p>
+                      <p>Period: 7</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 87</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [223]</p>
+                      <p>Melting point: 21 &deg;C</p>
+                      <p>Boiling Point: 650 &deg;C</p>
+                      <p>Electronegativity: 0.7</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for francium  -->
+              <div id="ra-hover" class="hover-info"> <!-- Hover info for radium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ra</span>
+                  <span class="chem-name">Radium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 2</p>
+                      <p>Period: 7</p>
+                      <p>Block: s</p>
+                      <p>Atomic number: 88</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [226]</p>
+                      <p>Melting point: 696 &deg;C</p>
+                      <p>Boiling Point: 1500 &deg;C</p>
+                      <p>Electronegativity: 0.9</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for radium  -->
+              <div id="ac-hover" class="hover-info"> <!-- Hover info for actinium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ac</span>
+                  <span class="chem-name">Actinium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 89</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [227]</p>
+                      <p>Melting point: 1050 &deg;C</p>
+                      <p>Boiling Point: 3200 &deg;C</p>
+                      <p>Electronegativity: 1.1</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for actinium  -->
+              <div id="th-hover" class="hover-info"> <!-- Hover info for thorium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Th</span>
+                  <span class="chem-name">Thorium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 90</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 232.038</p>
+                      <p>Melting point: 1750 &deg;C</p>
+                      <p>Boiling Point: 4785 &deg;C</p>
+                      <p>Electronegativity: 1.3</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for thorium  -->
+              <div id="pa-hover" class="hover-info"> <!-- Hover info for protactinium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pa</span>
+                  <span class="chem-name">Protactinium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 91</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 231.036</p>
+                      <p>Melting point: 1572 &deg;C</p>
+                      <p>Boiling Point: 4000 &deg;C</p>
+                      <p>Electronegativity: 1.5</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for protactinium  -->
+              <div id="u-hover" class="hover-info"> <!-- Hover info for uranium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">U</span>
+                  <span class="chem-name">Uranium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 92</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: 238.029</p>
+                      <p>Melting point: 1135 &deg;C</p>
+                      <p>Boiling Point: 4131 &deg;C</p>
+                      <p>Electronegativity: 1.7</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for uranium  -->
+              <div id="np-hover" class="hover-info"> <!-- Hover info for neptunium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Np</span>
+                  <span class="chem-name">Neptunium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 93</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [237]</p>
+                      <p>Melting point: 644 &deg;C</p>
+                      <p>Boiling Point: 3902 &deg;C</p>
+                      <p>Electronegativity: 1.3</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for neptunium  -->
+              <div id="pu-hover" class="hover-info"> <!-- Hover info for plutonium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Pu</span>
+                  <span class="chem-name">Plutonium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 94</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [244]</p>
+                      <p>Melting point: 640 &deg;C</p>
+                      <p>Boiling Point: 3228 &deg;C</p>
+                      <p>Electronegativity: 1.3</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for plutonium  -->
+              <div id="am-hover" class="hover-info"> <!-- Hover info for americium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Am</span>
+                  <span class="chem-name">Americium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 95</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [243]</p>
+                      <p>Melting point: 1176 &deg;C</p>
+                      <p>Boiling Point: 2011</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for americium  -->
+              <div id="cm-hover" class="hover-info"> <!-- Hover info for curium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cm</span>
+                  <span class="chem-name">Curium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 96</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [247]</p>
+                      <p>Melting point: 1345 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for curium  -->
+              <div id="bk-hover" class="hover-info"> <!-- Hover info for berkelium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Bk</span>
+                  <span class="chem-name">Berkelium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 97</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [247]</p>
+                      <p>Melting point: 986 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for berkelium  -->
+              <div id="cf-hover" class="hover-info"> <!-- Hover info for californium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cf</span>
+                  <span class="chem-name">Californium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 98</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [251]</p>
+                      <p>Melting point: 900 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for californium  -->
+              <div id="es-hover" class="hover-info"> <!-- Hover info for einsteinium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Es</span>
+                  <span class="chem-name">Einsteinium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 99</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [252]</p>
+                      <p>Melting point: 860 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for einsteinium  -->
+              <div id="fm-hover" class="hover-info"> <!-- Hover info for fermium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Fm</span>
+                  <span class="chem-name">Fermium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 100</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [257]</p>
+                      <p>Melting point: 1527 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for fermium  -->
+              <div id="md-hover" class="hover-info"> <!-- Hover info for mendelevium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Md</span>
+                  <span class="chem-name">Mendelevium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 101</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [258]</p>
+                      <p>Melting point: 827 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for mendelevium  -->
+              <div id="no-hover" class="hover-info"> <!-- Hover info for nobelium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">No</span>
+                  <span class="chem-name">Nobelium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 102</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [259]</p>
+                      <p>Melting point: 827 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for nobelium  -->
+              <div id="lr-hover" class="hover-info"> <!-- Hover info for lawrencium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Lr</span>
+                  <span class="chem-name">Lawrencium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: Actinides</p>
+                      <p>Period: 7</p>
+                      <p>Block: f</p>
+                      <p>Atomic number: 103</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [262]</p>
+                      <p>Melting point: 1627 &deg;C</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for lawrencium  -->
+              <div id="rf-hover" class="hover-info"> <!-- Hover info for Rutherfordium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Rf</span>
+                  <span class="chem-name">Rutherfordium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 4</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 104</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [267]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Rutherfordium  -->
+              <div id="db-hover" class="hover-info"> <!-- Hover info for Dubnium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Db</span>
+                  <span class="chem-name">Dubnium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 5</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 105</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [268]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Dubnium  -->
+              <div id="sg-hover" class="hover-info"> <!-- Hover info for Seaborgium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Sg</span>
+                  <span class="chem-name">Seaborgium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 6</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 106</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [269]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Seaborgium  -->
+              <div id="bh-hover" class="hover-info"> <!-- Hover info for Bohrium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Bh</span>
+                  <span class="chem-name">Bohrium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 7</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 107</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [270]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Bohrium  -->
+              <div id="hs-hover" class="hover-info"> <!-- Hover info for Hassium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Hs</span>
+                  <span class="chem-name">Hassium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 8</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 108</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [269]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Hassium  -->
+              <div id="mt-hover" class="hover-info"> <!-- Hover info for Meitnerium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Mt</span>
+                  <span class="chem-name">Meitnerium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 9</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 109</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [278]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Meitnerium  -->
+              <div id="ds-hover" class="hover-info"> <!-- Hover info for Darmstadtium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ds</span>
+                  <span class="chem-name">Darmstadtium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 10</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 110</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [281]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Darmstadtium  -->
+              <div id="rg-hover" class="hover-info"> <!-- Hover info for Roentgenium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Rg</span>
+                  <span class="chem-name">Roentgenium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 11</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 111</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [280]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Roentgenium  -->
+              <div id="cn-hover" class="hover-info"> <!-- Hover info for Copernicium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Cn</span>
+                  <span class="chem-name">Copernicium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 12</p>
+                      <p>Period: 7</p>
+                      <p>Block: d</p>
+                      <p>Atomic number: 112</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [285]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Copernicium  -->
+              <div id="nh-hover" class="hover-info"> <!-- Hover info for Nihonium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Nh</span>
+                  <span class="chem-name">Nihonium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 13</p>
+                      <p>Period: 7</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 113</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [286]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Nihonium  -->
+              <div id="fl-hover" class="hover-info"> <!-- Hover info for Flerovium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Fl</span>
+                  <span class="chem-name">Flerovium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 14</p>
+                      <p>Period: 7</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 114</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [289]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Flerovium  -->
+              <div id="mc-hover" class="hover-info"> <!-- Hover info for Moscovium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Mc</span>
+                  <span class="chem-name">Moscovium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 15</p>
+                      <p>Period: 7</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 115</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [289]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Moscovium  -->
+              <div id="lv-hover" class="hover-info"> <!-- Hover info for Livermorium  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Lv</span>
+                  <span class="chem-name">Livermorium</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 16</p>
+                      <p>Period: 7</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 116</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [293]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Livermorium  -->
+              <div id="ts-hover" class="hover-info"> <!-- Hover info for Tennessine  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Ts</span>
+                  <span class="chem-name">Tennessine</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 17</p>
+                      <p>Period: 7</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 117</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [294]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Tennessine  -->
+              <div id="og-hover" class="hover-info"> <!-- Hover info for Oganesson  -->
+                <div class="atom-box">
+                  <span class="chem-sym">Og</span>
+                  <span class="chem-name">Oganesson</span>
+                    <div class="atomic-contents-one">
+                      <p>Group: 18</p>
+                      <p>Period: 7</p>
+                      <p>Block: p</p>
+                      <p>Atomic number: 118</p>
+                    </div>
+                    <div class="atomic-contents-two">
+                      <p>Atomic mass: [294]</p>
+                      <p>Melting point: Unknown</p>
+                      <p>Boiling Point: Unknown</p>
+                      <p>Electronegativity: Unknown</p>
+                    </div>
+                </div>
+              </div> <!-- Closes hover info for Oganesson  -->
+            </div> <!-- Closes hover-info-container  -->
+          </div>
+          <div class="center-box-two">
+            <section class="group-3 groups">
+              <div>
+                <span class="group-number">3</span>
+              </div>
+
+              <!-- Scandium on periodic table -->
+              <div id="sc" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>21</h3>
+                </div>
+                <h1>Sc</h1>
+                <h2>Scandium</h2>
+                <h4>44.96</h4>
+              </div> <!-- closes element container for Scandium -->
+
+
+              <!-- Yttrium on periodic table -->
+              <div id="y" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>39</h3>
+                </div>
+                <h1>Y</h1>
+                <h2>Yttrium</h2>
+                <h4>88.91</h4>
+              </div> <!-- closes element container for Yttrium -->
+
+
+              <div class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>57-71</h3>
+                </div>
+                <h1></h1>
+                <h2>Lanthanides</h2>
+                <h4></h4>
+              </div>
+              <div class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>89-103</h3>
+                </div>
+                <h1></h1>
+                <h2>Actinides</h2>
+                <h4></h4>
+              </div>
+            </section> <!-- End of Group 3 -->
+
+            <!-- Group 4 -->
+            <section class="group-4 groups">
+              <div>
+                <span class="group-number">4</span>
+              </div>
+
+              <!-- Titanium on periodic table -->
+              <div id="ti" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>22</h3>
+                </div>
+                <h1>Ti</h1>
+                <h2>Titanium</h2>
+                <h4>47.87</h4>
+              </div> <!-- closes element container for Titanium -->
+
+
+              <!-- Zirconium on periodic table -->
+              <div id="zr" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>40</h3>
+                </div>
+                <h1>Zr</h1>
+                <h2>Zirconium</h2>
+                <h4>91.22</h4>
+              </div> <!-- closes element container for Zirconium -->
+
+
+              <!-- Hafnium on periodic table -->
+              <div id="hf" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>72</h3>
+                </div>
+                <h1>Hf</h1>
+                <h2>Hafnium</h2>
+                <h4>178.5</h4>
+              </div> <!-- closes element container for Hafnium -->
+
+
+              <!-- Rutherfordium on periodic table -->
+              <div id="rf" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>104</h3>
+                </div>
+                <h1>Rf</h1>
+                <h2>Rutherfordium</h2>
+                <h4>[261]</h4>
+              </div> <!-- closes element container for Rutherfordium -->
+
+            </section> <!-- End of Group 4 -->
+
+            <!-- Group 5 -->
+            <section class="group-5 groups">
+              <div>
+                <span class="group-number">5</span>
+              </div>
+
+              <!-- Vanadium on periodic table -->
+              <div id="v" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>23</h3>
+                </div>
+                <h1>V</h1>
+                <h2>Vanadium</h2>
+                <h4>50.94</h4>
+              </div> <!-- closes element container for Vanadium -->
+
+
+              <!-- Niobium on periodic table -->
+              <div id="nb" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>41</h3>
+                </div>
+                <h1>Nb</h1>
+                <h2>Niobium</h2>
+                <h4>92.91</h4>
+              </div> <!-- closes element container for Niobium -->
+
+
+              <!-- Tantalum on periodic table -->
+              <div id="ta" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>73</h3>
+                </div>
+                <h1>Ta</h1>
+                <h2>Tantalum</h2>
+                <h4>180.9</h4>
+              </div> <!-- closes element container for Tantalum -->
+
+
+              <!-- Dubnium on periodic table -->
+              <div id="db" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>105</h3>
+                </div>
+                <h1>Db</h1>
+                <h2>Dubnium</h2>
+                <h4>[262]</h4>
+              </div> <!-- closes element container for Dubnium -->
+
+            </section> <!-- End of Group 5 -->
+
+            <!-- Group 6 -->
+            <section class="group-6 groups">
+              <div>
+                <span class="group-number">6</span>
+              </div>
+
+              <!-- Chromium on periodic table -->
+              <div id="cr" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>24</h3>
+                </div>
+                <h1>Cr</h1>
+                <h2>Chromium</h2>
+                <h4>52</h4>
+              </div> <!-- closes element container for Chromium -->
+
+
+              <!-- Molybdenum on periodic table -->
+              <div id="mo" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>42</h3>
+                </div>
+                <h1>Mo</h1>
+                <h2>Molybdenum</h2>
+                <h4>95.94</h4>
+              </div> <!-- closes element container for Molybdenum -->
+
+
+              <!-- Tungsten on periodic table -->
+              <div id="w" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>74</h3>
+                </div>
+                <h1>W</h1>
+                <h2>Tungsten</h2>
+                <h4>183.9</h4>
+              </div> <!-- closes element container for Tungsten -->
+
+
+              <!-- Seaborgium on periodic table -->
+              <div id="sg" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>106</h3>
+                </div>
+                <h1>Sg</h1>
+                <h2>Seaborgium</h2>
+                <h4>[263]</h4>
+              </div> <!-- closes element container for Seaborgium -->
+
+            </section> <!-- End of Group 6 -->
+
+            <!-- Group 7 -->
+            <section class="group-7 groups">
+              <div>
+                <span class="group-number">7</span>
+              </div>
+
+              <!-- Manganese on periodic table -->
+              <div id="mn" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>25</h3>
+                </div>
+                <h1>Mn</h1>
+                <h2>Manganese</h2>
+                <h4>54.94</h4>
+              </div> <!-- closes element container for Manganese -->
+
+
+              <!-- Technetium on periodic table -->
+              <div id="tc" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>43</h3>
+                </div>
+                <h1>Tc</h1>
+                <h2>Technetium</h2>
+                <h4>[98]</h4>
+              </div> <!-- closes element container for Technetium -->
+
+
+              <!-- Rhenium on periodic table -->
+              <div id="re" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>75</h3>
+                </div>
+                <h1>Re</h1>
+                <h2>Rhenium</h2>
+                <h4>186.2</h4>
+              </div> <!-- closes element container for Rhenium -->
+
+
+              <!-- Bohrium on periodic table -->
+              <div id="bh" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>107</h3>
+                </div>
+                <h1>Bh</h1>
+                <h2>Bohrium</h2>
+                <h4>[267]</h4>
+              </div> <!-- closes element container for Bohrium -->
+
+            </section> <!-- End of Group 7 -->
+
+            <!-- Group 8 -->
+            <section class="group-8 groups">
+              <div>
+                <span class="group-number">8</span>
+              </div>
+
+              <!-- Iron on periodic table -->
+              <div id="fe" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>26</h3>
+                </div>
+                <h1>Fe</h1>
+                <h2>Iron</h2>
+                <h4>55.85</h4>
+              </div> <!-- closes element container for Iron -->
+
+
+              <!-- Ruthenium on periodic table -->
+              <div id="ru" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>44</h3>
+                </div>
+                <h1>Ru</h1>
+                <h2>Ruthenium</h2>
+                <h4>101.1</h4>
+              </div> <!-- closes element container for Ruthenium -->
+
+
+              <!-- Osmium on periodic table -->
+              <div id="os" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>76</h3>
+                </div>
+                <h1>Os</h1>
+                <h2>Osmium</h2>
+                <h4>190.2</h4>
+              </div> <!-- closes element container for Osmium -->
+
+
+              <!-- Hassium on periodic table -->
+              <div id="hs" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>108</h3>
+                </div>
+                <h1>Hs</h1>
+                <h2>Hassium</h2>
+                <h4>[265]</h4>
+              </div> <!-- closes element container for Hassium -->
+
+            </section> <!-- End of Group 8 -->
+
+            <!-- Group 9 -->
+            <section class="group-9 groups">
+              <div>
+                <span class="group-number">9</span>
+              </div>
+
+              <!-- Cobalt on periodic table -->
+              <div id="co" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>27</h3>
+                </div>
+                <h1>Co</h1>
+                <h2>Cobalt</h2>
+                <h4>58.93</h4>
+              </div> <!-- closes element container for Cobalt -->
+
+
+              <!-- Rhodium on periodic table -->
+              <div id="rh" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>45</h3>
+                </div>
+                <h1>Rh</h1>
+                <h2>Rhodium</h2>
+                <h4>102.9</h4>
+              </div> <!-- closes element container for Rhodium -->
+
+
+              <!-- Iridium on periodic table -->
+              <div id="ir" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>77</h3>
+                </div>
+                <h1>Ir</h1>
+                <h2>Iridium</h2>
+                <h4>192.2</h4>
+              </div> <!-- closes element container for Iridium -->
+
+
+              <!-- Meitnerium on periodic table -->
+              <div id="mt" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>109</h3>
+                </div>
+                <h1>Mt</h1>
+                <h2>Meitnerium</h2>
+                <h4>[266]</h4>
+              </div> <!-- closes element container for Meitnerium -->
+
+            </section> <!-- End of Group 9 -->
+
+            <!-- Group 10 -->
+            <section class="group-10 groups">
+              <div>
+                <span class="group-number">10</span>
+              </div>
+
+              <!-- Nickel on periodic table -->
+              <div id="ni" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>28</h3>
+                </div>
+                <h1>Ni</h1>
+                <h2>Nickel</h2>
+                <h4>58.69</h4>
+              </div> <!-- closes element container for Nickel -->
+
+
+              <!-- Palladium on periodic table -->
+              <div id="pd" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>46</h3>
+                </div>
+                <h1>Pd</h1>
+                <h2>Palladium</h2>
+                <h4>106.4</h4>
+              </div> <!-- closes element container for Palladium -->
+
+
+              <!-- Platinum on periodic table -->
+              <div id="pt" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>78</h3>
+                </div>
+                <h1>Pt</h1>
+                <h2>Platinum</h2>
+                <h4>195.1</h4>
+              </div> <!-- closes element container for Platinum -->
+
+
+              <!-- Darmstadtium on periodic table -->
+              <div id="ds" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>110</h3>
+                </div>
+                <h1>Ds</h1>
+                <h2>Darmstadtium</h2>
+                <h4>[281]</h4>
+              </div> <!-- closes element container for Darmstadtium -->
+
+            </section> <!-- End of Group 1o -->
+
+            <!-- Group 11 -->
+            <section class="group-11 groups">
+              <div>
+                <span class="group-number">11</span>
+              </div>
+
+              <!-- Copper on periodic table -->
+              <div id="cu" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>29</h3>
+                </div>
+                <h1>Cu</h1>
+                <h2>Copper</h2>
+                <h4>63.55</h4>
+              </div> <!-- closes element container for Copper -->
+
+
+              <!-- Silver on periodic table -->
+              <div id="ag" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>47</h3>
+                </div>
+                <h1>Ag</h1>
+                <h2>Silver</h2>
+                <h4>107.9</h4>
+              </div> <!-- closes element container for Silver -->
+
+
+              <!-- Gold on periodic table -->
+              <div id="au" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>79</h3>
+                </div>
+                <h1>Au</h1>
+                <h2>Gold</h2>
+                <h4>197</h4>
+              </div> <!-- closes element container for Gold -->
+
+
+              <!-- Roentgenium on periodic table -->
+              <div id="rg" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>111</h3>
+                </div>
+                <h1>Rg</h1>
+                <h2>Roentgenium</h2>
+                <h4>[272]</h4>
+              </div> <!-- closes element container for Roentgenium -->
+
+            </section> <!-- End Group 11 -->
+
+            <!-- Group 12 -->
+            <section class="group-12 groups">
+              <div>
+                <span class="group-number">12</span>
+              </div>
+
+              <!-- Zinc on periodic table -->
+              <div id="zn" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>30</h3>
+                </div>
+                <h1>Zn</h1>
+                <h2>Zinc</h2>
+                <h4>65.38</h4>
+              </div> <!-- closes element container for Zinc -->
+
+
+              <!-- Cadmium on periodic table -->
+              <div id="cd" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>48</h3>
+                </div>
+                <h1>Cd</h1>
+                <h2>Cadmium</h2>
+                <h4>112.4</h4>
+              </div> <!-- closes element container for Cadmium -->
+
+
+              <!-- Mercury on periodic table -->
+              <div id="hg" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>80</h3>
+                </div>
+                <h1>Hg</h1>
+                <h2>Mercury</h2>
+                <h4>200.6</h4>
+              </div> <!-- closes element container for Mercury -->
+
+
+              <!-- Copernicium on periodic table -->
+              <div id="cn" class="element-container transition-metal">
+                <div class="atomic-num">
+                  <h3>112</h3>
+                </div>
+                <h1>Cn</h1>
+                <h2>Copernicium</h2>
+                <h4>[285]</h4>
+              </div> <!-- closes element container for Copernicium -->
+
+            </section> <!-- End of Group 12 -->
+          </div> <!-- closes center-box-two -->
+        </div> <!-- closes center-container (where element info displays on hover above the table) -->
+
+        <!-- Group 13 -->
+        <section class="group-13 groups">
+          <div>
+            <span class="group-number">13</span>
+          </div>
+
+          <!-- Boron on periodic table -->
+          <div id="b" class="element-container semi-metal">
+            <div class="atomic-num">
+              <h3>5</h3>
+            </div>
+            <h1>B</h1>
+            <h2>Boron</h2>
+            <h4>10.81</h4>
+          </div> <!-- closes element container for Boron -->
+
+
+          <!-- Aluminum on periodic table -->
+          <div id="al" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>13</h3>
+            </div>
+            <h1>Al</h1>
+            <h2>Aluminum</h2>
+            <h4>26.98</h4>
+          </div> <!-- closes element container for Aluminum -->
+
+
+          <!-- Gallium on periodic table -->
+          <div id="ga" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>31</h3>
+            </div>
+            <h1>Ga</h1>
+            <h2>Gallium</h2>
+            <h4>69.72</h4>
+          </div> <!-- closes element container for Gallium -->
+
+
+          <!-- Indium on periodic table -->
+          <div id="in" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>49</h3>
+            </div>
+            <h1>In</h1>
+            <h2>Indium</h2>
+            <h4>114.8</h4>
+          </div> <!-- closes element container for Indium -->
+
+
+          <!-- Thallium on periodic table -->
+          <div id="tl" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>81</h3>
+            </div>
+            <h1>Tl</h1>
+            <h2>Thallium</h2>
+            <h4>204.4</h4>
+          </div> <!-- closes element container for Thallium -->
+
+
+          <!-- Nihonium on periodic table -->
+          <div id="nh" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>113</h3>
+            </div>
+            <h1>Nh</h1>
+            <h2>Nihonium</h2>
+            <h4>[286]</h4>
+          </div> <!-- closes element container for Nihonium -->
+
+        </section> <!-- End of Group 13 -->
+
+        <!-- Group 14 -->
+        <section class="group-14 groups">
+          <div>
+            <span class="group-number">14</span>
+          </div>
+
+          <!-- Carbon on periodic table -->
+          <div id="c" class="element-container non-metal">
+            <div class="atomic-num">
+              <h3>6</h3>
+            </div>
+            <h1>C</h1>
+            <h2>Carbon</h2>
+            <h4>12.01</h4>
+          </div> <!-- closes element container for Carbon -->
+
+
+          <!-- Silicon -->
+          <div id="si" class="element-container semi-metal">
+            <div class="atomic-num">
+              <h3>14</h3>
+            </div>
+            <h1>Si</h1>
+            <h2>Silicon</h2>
+            <h4>28.09</h4>
+          </div> <!-- closes element container for Silicon -->
+
+
+          <!-- Germanium on periodic table -->
+          <div id="ge" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>32</h3>
+            </div>
+            <h1>Ge</h1>
+            <h2>Germanium</h2>
+            <h4>72.63</h4>
+          </div> <!-- closes element container for Germanium -->
+
+
+          <!-- Tin on periodic table -->
+          <div id="sn" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>50</h3>
+            </div>
+            <h1>Sn</h1>
+            <h2>Tin</h2>
+            <h4>118.7</h4>
+          </div> <!-- closes element container for Tin -->
+
+
+          <!-- Lead on periodic table -->
+          <div id="pb" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>82</h3>
+            </div>
+            <h1>Pb</h1>
+            <h2>Lead</h2>
+            <h4>207.2</h4>
+          </div> <!-- closes element container for Lead -->
+
+
+          <!-- Flerovium on periodic table -->
+          <div id="fl" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>114</h3>
+            </div>
+            <h1>Fl</h1>
+            <h2>Flerovium</h2>
+            <h4>[289]</h4>
+          </div> <!-- closes element container for Flerovium -->
+
+        </section> <!-- End of Group 14 -->
+
+        <!-- Group 15 -->
+        <section class="group-15 groups">
+          <div>
+            <span class="group-number">15</span>
+          </div>
+
+          <!-- Nitrogen on periodic table -->
+          <div id="n" class="element-container non-metal">
+            <div class="atomic-num">
+              <h3>7</h3>
+            </div>
+            <h1>N</h1>
+            <h2>Nitrogen</h2>
+            <h4>14.01</h4>
+          </div> <!-- closes element container for Nitrogen -->
+
+
+          <!-- Phosphorus on periodic table -->
+          <div id="p" class="element-container non-metal">
+            <div class="atomic-num">
+              <h3>15</h3>
+            </div>
+            <h1>P</h1>
+            <h2>Phosphorus</h2>
+            <h4>30.97</h4>
+          </div> <!-- closes element container for Phosphorus -->
+
+
+          <!-- Arsenic on periodic table -->
+          <div id="as" class="element-container semi-metal">
+            <div class="atomic-num">
+              <h3>33</h3>
+            </div>
+            <h1>As</h1>
+            <h2>Arsenic</h2>
+            <h4>74.92</h4>
+          </div> <!-- closes element container for Arsenic -->
+
+
+          <!-- Antimony on periodic table -->
+          <div id="sb" class="element-container semi-metal">
+            <div class="atomic-num">
+              <h3>51</h3>
+            </div>
+            <h1>Sb</h1>
+            <h2>Antimony</h2>
+            <h4>121.8</h4>
+          </div> <!-- closes element container for Antimony -->
+
+
+          <!-- Bismuth on periodic table -->
+          <div id="bi" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>83</h3>
+            </div>
+            <h1>Bi</h1>
+            <h2>Bismuth</h2>
+            <h4>209</h4>
+          </div> <!-- closes element container for Bismuth -->
+
+
+          <!-- Moscovium on periodic table -->
+          <div id="mc" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>115</h3>
+            </div>
+            <h1>Mc</h1>
+            <h2>Moscovium</h2>
+            <h4>[289]</h4>
+          </div> <!-- closes element container for Moscovium -->
+
+        </section> <!-- End of Group 15 -->
+
+        <!-- Group 16 -->
+        <section class="group-16 groups">
+          <div>
+            <span class="group-number">16</span>
+          </div>
+
+          <!-- Oxygen on periodic table -->
+          <div id="o" class="element-container non-metal">
+            <div class="atomic-num">
+              <h3>8</h3>
+            </div>
+            <h1>O</h1>
+            <h2>Oxygen</h2>
+            <h4>16</h4>
+          </div> <!-- closes element container for Oxygen -->
+
+
+          <!-- Sulfur on periodic table -->
+          <div id="s" class="element-container non-metal">
+            <div class="atomic-num">
+              <h3>16</h3>
+            </div>
+            <h1>S</h1>
+            <h2>Sulfur</h2>
+            <h4>32.06</h4>
+          </div> <!-- closes element container for Sulfur -->
+
+
+          <!-- Selenium on periodic table -->
+          <div id="se" class="element-container non-metal">
+            <div class="atomic-num">
+              <h3>34</h3>
+            </div>
+            <h1>Se</h1>
+            <h2>Selenium</h2>
+            <h4>78.96</h4>
+          </div> <!-- closes element container for Selenium -->
+
+
+          <!-- Tellurium on periodic table -->
+          <div id="te" class="element-container semi-metal">
+            <div class="atomic-num">
+              <h3>52</h3>
+            </div>
+            <h1>Te</h1>
+            <h2>Tellurium</h2>
+            <h4>127.6</h4>
+          </div> <!-- closes element container for Tellurium -->
+
+
+          <!-- Polonium on periodic table -->
+          <div id="po" class="element-container semi-metal">
+            <div class="atomic-num">
+              <h3>84</h3>
+            </div>
+            <h1>Po</h1>
+            <h2>Polonium</h2>
+            <h4>[209]</h4>
+          </div> <!-- closes element container for Polonium -->
+
+
+          <!-- Livermorium on periodic table -->
+          <div id="lv" class="element-container other-metal">
+            <div class="atomic-num">
+              <h3>116</h3>
+            </div>
+            <h1>Lv</h1>
+            <h2>Livermorium</h2>
+            <h4>[293]</h4>
+          </div> <!-- closes element container for Livermorium -->
+
+        </section> <!-- End of Group 16 -->
+
+        <!-- Group 17 -->
+        <section class="group-17 groups">
+          <div>
+            <span class="group-number">17</span>
+          </div>
+
+          <!-- Fluorine on periodic table -->
+          <div id="f" class="element-container halogen">
+            <div class="atomic-num">
+              <h3>9</h3>
+            </div>
+            <h1>F</h1>
+            <h2>Fluorine</h2>
+            <h4>19</h4>
+          </div> <!-- closes element container for Fluorine -->
+
+
+          <!-- Chlorine on periodic table -->
+          <div id="cl" class="element-container halogen">
+            <div class="atomic-num">
+              <h3>17</h3>
+            </div>
+            <h1>Cl</h1>
+            <h2>Chlorine</h2>
+            <h4>35.45</h4>
+          </div> <!-- closes element container for Chlorine -->
+
+
+          <!-- Bromine on periodic table -->
+          <div id="br" class="element-container halogen">
+            <div class="atomic-num">
+              <h3>35</h3>
+            </div>
+            <h1>Br</h1>
+            <h2>Bromine</h2>
+            <h4>79.9</h4>
+          </div> <!-- closes element container for Bromine -->
+
+
+          <!-- Iodine on periodic table -->
+          <div id="i" class="element-container halogen">
+            <div class="atomic-num">
+              <h3>53</h3>
+            </div>
+            <h1>I</h1>
+            <h2>Iodine</h2>
+            <h4>126.9</h4>
+          </div> <!-- closes element container for Iodine -->
+
+
+          <!-- Astatine on periodic table -->
+          <div id="at" class="element-container halogen">
+            <div class="atomic-num">
+              <h3>85</h3>
+            </div>
+            <h1>At</h1>
+            <h2>Astatine</h2>
+            <h4>[210]</h4>
+          </div> <!-- closes element container for Astatine -->
+
+
+          <!-- Tennessine on periodic table -->
+          <div id="ts" class="element-container halogen">
+            <div class="atomic-num">
+              <h3>117</h3>
+            </div>
+            <h1>Ts</h1>
+            <h2>Tennessine</h2>
+            <h4>[294]</h4>
+          </div> <!-- closes element container for Tennessine -->
+
+        </section> <!-- End of Group 17 -->
+
+        <!-- Group 18 -->
+        <section class="group-18 groups">
+          <div>
+            <span class="group-number">18</span>
+          </div>
+
+          <!-- Helium on periodic table -->
+          <div id="he" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>2</h3>
+            </div>
+            <h1>He</h1>
+            <h2>Helium</h2>
+            <h4>4.003</h4>
+          </div> <!-- closes element container for Helium -->
+
+
+          <!-- Neon on periodic table -->
+          <div id="ne" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>10</h3>
+            </div>
+            <h1>Ne</h1>
+            <h2>Neon</h2>
+            <h4>20.18</h4>
+          </div> <!-- closes element container for Neon -->
+
+
+          <!-- Argon on periodic table -->
+          <div id="ar" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>18</h3>
+            </div>
+            <h1>Ar</h1>
+            <h2>Argon</h2>
+            <h4>39.95</h4>
+          </div> <!-- closes element container for Argon -->
+
+
+          <!-- Krypton on periodic table -->
+          <div id="kr" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>36</h3>
+            </div>
+            <h1>Kr</h1>
+            <h2>Krypton</h2>
+            <h4>83.8</h4>
+          </div> <!-- closes element container for Krypton -->
+
+
+          <!-- Xenon on periodic table -->
+          <div id="xe" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>54</h3>
+            </div>
+            <h1>Xe</h1>
+            <h2>Xenon</h2>
+            <h4>131.3</h4>
+          </div> <!-- closes element container for Xenon -->
+
+
+          <!-- Radon on periodic table -->
+          <div id="rn" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>86</h3>
+            </div>
+            <h1>Rn</h1>
+            <h2>Radon</h2>
+            <h4>[222]</h4>
+          </div> <!-- closes element container for Radon -->
+
+
+          <!-- Ognesson on periodic table -->
+          <div id="og" class="element-container noble-gas">
+            <div class="atomic-num">
+              <h3>118</h3>
+            </div>
+            <h1>Og</h1>
+            <h2>Ognesson</h2>
+            <h4>[294]</h4>
+          </div> <!-- closes element container for Ognesson -->
+
+        </section> <!-- End of Group 18 -->
+      </section> <!-- End of class top-table -->
+
+
+      <!-- Color Key -->
+      <div class="bottom-table">
+        <!-- Button to remove table styles -->
+        <div class="clear-table-styles-btn">
+          <div>
+            <p>Toggle</p>
+            <p>Table Styles</p>
+          </div>
+        </div>
+
+        <div><!-- flex-coulmn -->
+          <div class="lathanidesANDactinides"><!-- L&A -->
+            <!-- Position: Underneath Group 4 -->
+            <section>
+              <div id="la" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>57</h3>
+                </div>
+                <h1>La</h1>
+                <h2>Lanthanum</h2>
+                <h4>138.9</h4>
+              </div>
+              <div id="ac" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>89</h3>
+                </div>
+                <h1>Ac</h1>
+                <h2>Actinium</h2>
+                <h4>[227]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 5 -->
+            <section>
+              <div id="ce" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>58</h3>
+                </div>
+                <h1>Ce</h1>
+                <h2>Cerium</h2>
+                <h4>140.1</h4>
+              </div>
+              <div id="th" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>90</h3>
+                </div>
+                <h1>Th</h1>
+                <h2>Thorium</h2>
+                <h4>232</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 6 -->
+            <section>
+              <div id="pr" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>59</h3>
+                </div>
+                <h1>Pr</h1>
+                <h2>Praseodymium</h2>
+                <h4>140.9</h4>
+              </div>
+              <div id="pa" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>91</h3>
+                </div>
+                <h1>Pa</h1>
+                <h2>Protactinium</h2>
+                <h4>231</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 7 -->
+            <section>
+              <div id="nd" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>60</h3>
+                </div>
+                <h1>Nd</h1>
+                <h2>Neodymium</h2>
+                <h4>144.2</h4>
+              </div>
+              <div id="u" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>92</h3>
+                </div>
+                <h1>U</h1>
+                <h2>Uranium</h2>
+                <h4>238</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 8 -->
+            <section>
+              <div id="pm" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>61</h3>
+                </div>
+                <h1>Pm</h1>
+                <h2>Promethium</h2>
+                <h4>[145]</h4>
+              </div>
+              <div id="np" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>93</h3>
+                </div>
+                <h1>Np</h1>
+                <h2>Neptunium</h2>
+                <h4>[237]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 9 -->
+            <section>
+              <div id="sm" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>62</h3>
+                </div>
+                <h1>Sm</h1>
+                <h2>Samarium</h2>
+                <h4>150.4</h4>
+              </div>
+              <div id="pu" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>94</h3>
+                </div>
+                <h1>Pu</h1>
+                <h2>Plutonium</h2>
+                <h4>[244]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 10 -->
+            <section>
+              <div id="eu" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>63</h3>
+                </div>
+                <h1>Eu</h1>
+                <h2>Europium</h2>
+                <h4>152</h4>
+              </div>
+              <div id="am" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>95</h3>
+                </div>
+                <h1>Am</h1>
+                <h2>Americium</h2>
+                <h4>[243]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 11 -->
+            <section>
+              <div id="gd" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>64</h3>
+                </div>
+                <h1>Gd</h1>
+                <h2>Gadolinium</h2>
+                <h4>157.3</h4>
+              </div>
+              <div id="cm" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>96</h3>
+                </div>
+                <h1>Cm</h1>
+                <h2>Curium</h2>
+                <h4>[247]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 12 -->
+            <section>
+              <div id="tb" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>65</h3>
+                </div>
+                <h1>Tb</h1>
+                <h2>Terbium</h2>
+                <h4>158.9</h4>
+              </div>
+              <div id="bk" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>97</h3>
+                </div>
+                <h1>Bk</h1>
+                <h2>Berkelium</h2>
+                <h4>[247]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 13 -->
+            <section>
+              <div id="dy" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>66</h3>
+                </div>
+                <h1>Dy</h1>
+                <h2>Dysprosium</h2>
+                <h4>162.5</h4>
+              </div>
+              <div id="cf" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>98</h3>
+                </div>
+                <h1>Cf</h1>
+                <h2>Californium</h2>
+                <h4>[251]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 14 -->
+            <section>
+              <div id="ho" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>67</h3>
+                </div>
+                <h1>Ho</h1>
+                <h2>Holmium</h2>
+                <h4>164.9</h4>
+              </div>
+              <div id="es" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>99</h3>
+                </div>
+                <h1>Es</h1>
+                <h2>Einsteinium</h2>
+                <h4>[252]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 15 -->
+            <section>
+              <div id="er" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>68</h3>
+                </div>
+                <h1>Er</h1>
+                <h2>Erbium</h2>
+                <h4>167.3</h4>
+              </div>
+              <div id="fm" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>100</h3>
+                </div>
+                <h1>Fm</h1>
+                <h2>Fermium</h2>
+                <h4>[257]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 16 -->
+            <section>
+              <div id="tm" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>69</h3>
+                </div>
+                <h1>Tm</h1>
+                <h2>Thulium</h2>
+                <h4>168.9</h4>
+              </div>
+              <div id="md" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>101</h3>
+                </div>
+                <h1>Md</h1>
+                <h2>Mendelevium</h2>
+                <h4>[258]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 17 -->
+            <section>
+              <div id="yb" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>70</h3>
+                </div>
+                <h1>Yb</h1>
+                <h2>Ytterbium</h2>
+                <h4>173.1</h4>
+              </div>
+              <div id="no" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>102</h3>
+                </div>
+                <h1>No</h1>
+                <h2>Nobelium</h2>
+                <h4>[259]</h4>
+              </div>
+            </section>
+
+            <!-- Position: Underneath Group 18 -->
+            <section>
+              <div id="lu" class="element-container transition-metal lanthanide">
+                <div class="atomic-num">
+                  <h3>71</h3>
+                </div>
+                <h1>Lu</h1>
+                <h2>Lutetium</h2>
+                <h4>175</h4>
+              </div>
+              <div id="lr" class="element-container transition-metal actinide">
+                <div class="atomic-num">
+                  <h3>103</h3>
+                </div>
+                <h1>Lr</h1>
+                <h2>Lawrencium</h2>
+                <h4>[262]</h4>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div> <!-- closes bottom-table -->
+
+      <div class="element-color-key-container">
+        <div class="color-key alkali-metal b-one">
+          <p>Alkali Metal</p>
+        </div>
+        <div class="color-key alkaline-earth b-two">
+          <p>Alkaline Earth</p>
+        </div>
+        <div class="color-key transition-metal b-three">
+          <p>Transition Metal</p>
+        </div>
+        <div class="color-key other-metal b-four">
+          <p>Other Metal</p>
+        </div>
+        <div class="color-key semi-metal b-five">
+          <p>Semi-metal</p>
+        </div>
+        <div class="color-key non-metal b-six">
+          <p>Non-metal</p>
+        </div>
+        <div class="color-key halogen b-seven">
+          <p>Halogen</p>
+        </div>
+        <div class="color-key noble-gas b-eight">
+          <p>Noble Gas</p>
+        </div>
+        <div class="color-key lanthanide grayed-out b-nine">
+          <p>Lanthanide</p>
+        </div>
+        <div class="color-key actinide grayed-out b-ten">
+          <p>Actinide</p>
+        </div>
+      </div>
+
+      <!-- Table Options -->
+      <div class="table-options-container">
+        <h3 class="options-header">Toggle Table Options:</h3>
+        <div class="flex-row-center">
+          <div class="options-one">
+            <p id="atomic-mass" class="option option-select">Atomic mass</p>
+            <p id="atomic-number" class="option option-select">Atomic number</p>
+          </div>
+          <div class="options-two">
+            <p id="chemical-symbol" class="option option-select">Chemical symbol</p>
+            <p id="element-name" class="option option-select">Element name</p>
+          </div>
+          <div class="options-three">
+            <p id="group-number" class="option option-select">Group number</p>
+            <p id="test-mode" class="option-test option-test-select">TEST MODE</p>
+          </div>
+        </div>
+        <p class="footer">Created by Ben Young</p>
+      </div>
+
+    </main>
+
+    <div class="no-mobile-screen">
+      <img src="resources/images/sad-face.png" alt="sad face" />
+      <h1>Sorry!</h1>
+      <h2>Screens need to be wider than 1016px.</h2>
+      <p>But don't worry, mobile versions are on the way!</p>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="resources/js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,390 @@
+/* Color Variables */
+
+:root {
+  --alkali-metal-color: #FF8021;
+  --alkaline-earth-color: #FFB379;
+  --transition-metal-color: #404040;
+  --other-metal-color: #4E67C8;
+  --semi-metal-color: #34AB8A;
+  --non-metal-color: #5DCEAF;
+  --halogen-color: #F78D7B;
+  --noble-gas-color: #F14124;
+  --lanthanide-color: #94a3de;
+  --actinide-color: #7e287e;
+  --test-mode-color: #CECECE;
+  --selected-color: yellow;
+}
+
+/* Universal styles */
+
+html {
+  font-family: Helvetica;
+  font-size: 16px;
+  cursor: default;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size: 9px;
+}
+
+sub {
+  top: 0.4em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Group Number */
+
+.group-number {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+  opacity: 0.9;
+}
+
+/* chemical symbol */
+h1 {
+  font-size: 1rem;
+  margin: 0.1rem;
+}
+
+h2 { /* element name */
+  font-size: 0.53125rem;
+  margin: 0 0.2rem 0.2em;
+}
+
+/* atomic  number */
+h3 {
+  font-size: 0.5625rem;
+  margin-top: 0.05rem;
+}
+
+.atomic-num {
+  width: 100%;
+  padding-left: 4px;
+}
+
+h4 { /* atomic  mass */
+  font-size: 0.5625rem;
+  margin-bottom: 0.05rem;c
+}
+
+/* Fade in page content on page load */
+body {
+  opacity: 1;
+  animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.footer {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  color: #404040;
+}
+
+/* General group styles */
+
+.groups { /* doesn't include lathanides and actinides */
+  display: flex;
+  flex-direction: column;
+}
+
+/* General element styles */
+
+.element-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  /* This will go when making everything align left */
+  background: lightgray;
+  width: 3.40625rem;
+  height: 3.40625rem;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin: 1px;
+  box-shadow: 0 0.75px #999;
+}
+
+.element-container:hover {
+  box-shadow: 0 0px #666;
+  transform: translateY(0.75px);
+  filter: brightness(95%);
+}
+
+.alkali-metal {
+  background: var(--alkali-metal-color);
+}
+
+.alkaline-earth {
+  background: var(--alkaline-earth-color);
+}
+
+.transition-metal {
+  background: var(--transition-metal-color);
+}
+
+.other-metal {
+  background: var(--other-metal-color);
+}
+
+.semi-metal {
+  background: var(--semi-metal-color);
+}
+
+.non-metal {
+  background: var(--non-metal-color);
+}
+
+.halogen {
+  background: var(--halogen-color);
+}
+
+.noble-gas {
+  background: var(--noble-gas-color);
+}
+
+.grayed-out {
+  background: #CECECE;
+}
+
+.lanthanide-on {
+  background: var(--lanthanide-color);
+}
+
+.actinide-on {
+  background: var(--actinide-color);
+}
+
+.test-mode {
+  background: var(--test-mode-color);
+  color: #000;
+  border: 1px solid #000;
+}
+
+.lanthanide {
+  margin-bottom: 2px;
+}
+
+/* Main content container */
+
+main {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.top-table {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bottom-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.15rem;
+}
+
+.lathanidesANDactinides {
+  display: flex;
+}
+
+/* Specific group styles */
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-box-one {
+  display: flex;
+}
+.center-box-two {
+  display: flex;
+}
+
+.hover-info-container {
+  height: 9.05rem;
+  width: 100%;
+  position: relative;
+  margin: 10px 10px 12px 10px;
+}
+
+/* Remove styles button */
+.clear-table-styles-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 9.44375rem;
+  height: 6.75rem;
+  margin-right: 1.15rem;
+  background-color: #4CAF50;
+  box-shadow: 0 4px #999;
+  border-radius: 5px;
+}
+
+.clear-table-styles-btn:hover {
+  filter: brightness(95%);
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.clear-table-styles-btn:active {
+  background-color: #3e8e41;
+}
+
+.clear-table-styles-btn div p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  color: #FFF;
+}
+
+.element-color-key-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.15rem;
+}
+
+.color-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.16875rem;
+  height: 1.5rem;
+  font-size: .825rem;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF;
+  box-shadow: 0 0.75px #999;
+  padding: 1px 0;
+  margin: 0 1.5px;
+}
+
+.color-key:hover {
+  filter: brightness(95%);
+  box-shadow: 0 0px #666;
+  transform: translateY(0.75px);
+}
+
+.color-key:active {
+  filter: brightness(90%);
+}
+
+.table-options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.options-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.option {
+  padding: 10px 7px;
+  background-color: #CECECE;
+  color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  width: 150px;
+  box-shadow: 0 0.75px #999;
+}
+
+.option:hover {
+  filter: brightness(95%);
+  box-shadow: 0 0px #666;
+  transform: translateY(0.75px);
+}
+
+.option-select {
+  background-color: #404040;
+}
+
+.option-test {
+  padding: 10px 7px;
+  background-color: #4CAF50;;
+  color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  width: 150px;
+  box-shadow: 0 0.75px #999;
+}
+
+.option-test:hover {
+  filter: brightness(95%);
+  box-shadow: 0 0px #666;
+  transform: translateY(0.75px);
+}
+
+.option-test-select {
+  background-color: #CECECE;
+}
+
+
+@media only screen and (max-width: 1016px) {
+  main {
+    display: none;
+  }
+
+  .no-mobile-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20px 20px 20px;
+  }
+
+  img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  h1, h2, p {
+    margin-top: 12px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  h2, p {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 1017px) {
+  .no-mobile-screen {
+    display: none;
+  }
+}
