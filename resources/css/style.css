@@ -96,7 +96,7 @@ body {
 }
 
 .footer {
-  margin-top: 12px;
+  margin: 12px 0 20px 0;
   font-size: 0.75rem;
   color: #404040;
 }
